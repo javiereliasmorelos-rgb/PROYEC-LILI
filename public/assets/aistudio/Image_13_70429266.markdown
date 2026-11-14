@@ -1,0 +1,228 @@
+---
+name: Academic Precision
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#43474d'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#74777e'
+  outline-variant: '#c3c6ce'
+  surface-tint: '#49607c'
+  primary: '#001428'
+  on-primary: '#ffffff'
+  primary-container: '#0f2942'
+  on-primary-container: '#7991af'
+  inverse-primary: '#b0c9e8'
+  secondary: '#0051d5'
+  on-secondary: '#ffffff'
+  secondary-container: '#316bf3'
+  on-secondary-container: '#fefcff'
+  tertiary: '#00170c'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002e1d'
+  on-tertiary-container: '#00a270'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d1e4ff'
+  primary-fixed-dim: '#b0c9e8'
+  on-primary-fixed: '#011d35'
+  on-primary-fixed-variant: '#314863'
+  secondary-fixed: '#dbe1ff'
+  secondary-fixed-dim: '#b4c5ff'
+  on-secondary-fixed: '#00174b'
+  on-secondary-fixed-variant: '#003ea8'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.025em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.75rem
+    fontWeight: '700'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '400'
+    lineHeight: 1.125rem
+  label-lg:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.025em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 0.6875rem
+    fontWeight: '700'
+    lineHeight: 0.875rem
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+The design system embodies institutional authority, computational clarity, and operational calm. Crafted specifically for academic administration, educators, students, and institutional leaders, the interface moves away from archaic, cluttered school portals toward an executive, data-dense, yet legible software environment.
+
+The visual aesthetic synthesizes **Corporate / Modern** rigor with **Tactile Depth**:
+- **Institutional Weight**: Deep, anchoring navy tones project trust, permanence, and procedural integrity.
+- **Cognitive Clarity**: Heavy density handled through disciplined whitespace, balanced data hierarchies, and intentional typographic contrasts.
+- **Operational Statusing**: Academic health (at-risk indicators, grade thresholds, attendance alerts) is communicated through an unambiguous semantic color matrix.
+- **Adaptive Agility**: High utility across both desktop management suites and mobile touchpoints via responsive cards, quick-filter chips, and compact metric indicators.
+
+## Colors
+The color palette anchors institutional workflows with high-contrast functional color assignments.
+
+- **Primary (`#0F2942`)**: Deep Marine Navy. Defines master navigation headers, institutional branding, core typography headers, and active structural frames.
+- **Secondary (`#2563EB`)**: Royal Cobalt / Indigo Accent. Used for interactive states, primary action buttons, active navigation markers, interactive focus rings, and high-priority selections.
+- **Neutral Palette**:
+  - Surface Background: `#F8FAFC` (Slate 50) establishes a glare-free canvas.
+  - Card & Container Surface: `#FFFFFF` provides clean separation.
+  - Border Lines: `#E2E8F0` (Slate 200) for structural division without visual noise.
+  - Muted Text / Secondary Labels: `#64748B` (Slate 500).
+  - Deep Text / Body Content: `#1E293B` (Slate 800).
+- **Academic Traffic Light (Status & Alerts)**:
+  - **Success / Passed (`#10B981`)**: Approved credits, positive attendance, successful submission.
+  - **Warning / Review Needed (`#F59E0B`)**: Attendance alerts, upcoming deadlines, probationary states.
+  - **Critical / Academic Risk (`#EF4444`)**: Failing grades, course drop risks, administrative blocks.
+
+## Typography
+Typographic rhythm combines **Plus Jakarta Sans** for headlines and high-level dashboard summaries with **Inter** for dense transactional tables, data sheets, and mobile inputs.
+
+- Titles employ negative letter-spacing for a modern, compact, institutional authority.
+- Numerical displays within metric tiles and performance charts maintain tabular numeric alignment (`font-variant-numeric: tabular-nums`) to preserve column alignment across real-time grade calculations and attendance metrics.
+- Small labels and data tags utilize uppercase tracking at `0.05em` to maintain legibility when rendered in status badges.
+
+## Layout & Spacing
+The layout uses a multi-tier responsive grid tailored to high-density administrative work and mobile telemetry:
+
+- **Desktop (1024px+)**: 12-column fluid grid with `margin: 2rem` and `gutter: 1.5rem`. Persistent left navigation rail (64px collapsed, 240px expanded) with dedicated work area and floating contextual inspector panels.
+- **Tablet (768px - 1023px)**: 8-column layout. Metric cards collapse to 2x2 formations; administrative tables allow horizontal scrolling with pinned left columns.
+- **Mobile (&lt;768px)**: 4-column layout with `margin-mobile: 1rem` and `gutter-mobile: 1rem`. Master-detail views reflow into stacked summary cards. Deep administrative tables automatically morph into swipeable list cards.
+
+Vertical rhythm adheres to an 8pt base grid for structural containers and a 4pt sub-grid for internal component padding.
+
+## Elevation & Depth
+Depth conveys priority and context without visual clutter. The system uses soft, multi-layered ambient shadows tinted with the primary navy tone (`#0F2942`) instead of pure black:
+
+- **Base Level (Canvas)**: `#F8FAFC` flat surface with no shadow.
+- **Layer 1 (Card & Module Resting)**: Elevated against canvas with a hairline outline (`1px solid #E2E8F0`) and subtle ambient shadow:
+  - `box-shadow: 0 1px 3px 0 rgba(15, 41, 66, 0.05), 0 1px 2px -1px rgba(15, 41, 66, 0.05);`
+- **Layer 2 (Interactive Hover & Dropdown Menus)**: Applied to hovered cards, dropdown menus, and quick-filter drawers:
+  - `box-shadow: 0 10px 15px -3px rgba(15, 41, 66, 0.08), 0 4px 6px -4px rgba(15, 41, 66, 0.04);`
+- **Layer 3 (Modals & Mobile Drawers)**: High z-index dialogs, bottom sheets, and administrative modals:
+  - `box-shadow: 0 20px 25px -5px rgba(15, 41, 66, 0.12), 0 8px 10px -6px rgba(15, 41, 66, 0.08);`
+  - Paired with an overlay backdrop: `rgba(15, 41, 66, 0.5)` with `backdrop-filter: blur(4px)`.
+
+## Shapes
+The design adopts a refined, modern curvature scheme configured at level **2 (Rounded)**:
+- Standard components (buttons, input fields, dropdown trigger targets) use `0.5rem` (8px).
+- Content containers, summary cards, and mobile KPI widgets use `rounded-xl` equivalent to `1rem` (16px) to yield a friendly yet structured appearance.
+- Academic status chips, notification count badges, and avatar frames use full-pill styling (`rounded-full` / `9999px`) to create an immediate visual contrast against geometric card corners.
+
+## Components
+
+### Buttons
+- **Primary**: Background `#2563EB`, text `#FFFFFF`, rounded `0.5rem`, height 40px (desktop) / 44px (touch). Focused state displays a 2px offset ring (`ring-2 ring-offset-2 ring-[#2563EB]`).
+- **Institutional / Secondary**: Background `#0F2942`, text `#FFFFFF`, for decisive platform-wide actions (e.g., "Cerrar Acta Académica", "Exportar Matrícula").
+- **Outline / Ghost**: 1px border `#E2E8F0`, text `#1E293B`, background `#FFFFFF`. Hover changes background to `#F8FAFC`.
+
+### KPI Metric Tiles
+- Background `#FFFFFF`, rounded `1rem`, padding `1.25rem`, subtle `#E2E8F0` border.
+- Features a small top label (`label-md` in `#64748B`), large quantitative display (`display-lg` in `#0F2942`), and an inline delta pill showing status (e.g., `+4.2%` with `#10B981` background at 10% opacity, text `#10B981`).
+
+### Status Chips (Semáforo Académico)
+- Full pill (`rounded-full`), height 24px, horizontal padding `0.75rem`, text `label-sm`.
+- **Approved / Regular**: Background `rgba(16, 185, 129, 0.12)`, text `#047857`.
+- **Alert / Observation**: Background `rgba(245, 158, 11, 0.12)`, text `#B45309`.
+- **Critical / Risk**: Background `rgba(239, 68, 68, 0.12)`, text `#B91C1C`.
+
+### Quick Filters & Filter Chips
+- Horizontally scrollable row on mobile with hidden scrollbars.
+- Inactive state: Border `1px solid #E2E8F0`, background `#FFFFFF`, text `#64748B`.
+- Selected state: Background `#0F2942`, text `#FFFFFF`, border `1px solid #0F2942`.
+
+### Mobile Summary Cards (Student & Course Records)
+- Alternative to data tables on mobile devices.
+- Card wrapper with `rounded-xl`, white background, `1px solid #E2E8F0`, padded with `1rem`.
+- Header: Avatar + Student ID + Academic Status Chip.
+- Body: 2-column key-value grid (e.g., Promedio: `8.8`, Asistencia: `92%`, Créditos: `32/40`).
+- Bottom row: Subtle top divider (`#F1F5F9`) with inline quick action buttons ("Ver Ficha", "Notificar").
+
+### Form Inputs & Select Fields
+- Height 42px. 1px border `#CBD5E1`, background `#FFFFFF`, rounded `0.5rem`, text `#1E293B`, placeholder `#94A3B8`.
+- Focus state: Border color `#2563EB`, outer glow `box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15)`.
+
+### Adaptive Navigation
+- **Desktop**: Left vertical sidebar in `#0F2942` with white/slate-300 icons and labels. Active route indicated with an indigo-blue indicator tab and solid background highlight (`rgba(255, 255, 255, 0.08)`).
+- **Mobile**: Fixed bottom navigation bar (`#FFFFFF` with top border `1px solid #E2E8F0`) supporting 4-5 top tasks (Inicio, Alumnos, Calificaciones, Notificaciones, Menú). Additional administrative modules open through a swipeable bottom drawer (`rounded-t-2xl`).

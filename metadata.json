@@ -1,0 +1,6 @@
+{
+  "name": "InventPro",
+  "description": "Sistema web de gestión empresarial de inventarios con control de existencias, movimientos, alertas y reportes en PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
